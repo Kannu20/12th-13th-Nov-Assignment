@@ -1,0 +1,43 @@
+// 12 Novemeber Assignment
+// MCQ AND SHORT ANSWER 
+
+Q1.
+ans - (b) - React Router DOM
+
+Q2.
+ans - (b) - Enable routing and keeps ui in sync with url
+
+Q3.
+ans - (c) - useNavigate
+
+Q4.
+ans - (c) - <Route>
+
+Q5.
+ans - (b) - Applies an “active” class to the current link 
+
+Q6.
+ans - (b) - Using <Route path="*"> 
+
+Q7.
+ans - (c) - useParams
+
+Q8.
+ans - (b) - By placing <Route> elements inside another <Route> 
+
+Q9.
+ans - (c) - Information about the current URL (pathname, search, hash) 
+
+Q10.
+ans - (c) - Navigation occurs without full page reload
+
+// Short Ans
+Q1. Ans - Link is used for Simple Navigation only. While navlink is used for both navigation and active styling
+
+Q2. Ans - Main Purpose of useNavigate() hook is to move user to another page without clicking a link.
+
+Q3. Ans - Dynamic routes are routes that contain variable like(/user/:id) to load page based on changing values. for eg. <Route path="/user/:id" element={<User />} />
+
+Q4. Ans - Use a catch-all route like path="*" in react router to display a custom 404 Not Found page whenever the user visits an undefined or invalid route.
+
+Q5. Ans - It helps you access dynamic route parameters (like :id) from the URL, allowing you to fetch or display data based on that parameter.
