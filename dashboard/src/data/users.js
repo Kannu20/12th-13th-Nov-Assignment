@@ -5,7 +5,7 @@ const users = [
     email: "aisha@example.com",
     role: "Product Manager",
     bio: "Responsible for product strategy and roadmaps.",
-    avatar: "/src/assets/avatar1.jpg"
+    avatar: "/src/assets/girl.png"
   },
   {
     id: "u2",
@@ -13,7 +13,7 @@ const users = [
     email: "kanishak@gmail.com",
     role: "Frontend Dev",
     bio: "Builds pixel-perfect UIs and reusable components.",
-    avatar: "/src/assets/avatar2.jpg"
+    avatar: "/src/assets/boy.png"
   }
 ];
 
